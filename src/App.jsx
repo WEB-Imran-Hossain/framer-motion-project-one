@@ -1,9 +1,14 @@
+import ButtonTap from "./components/ButtonTap";
+import Keyframe from "./components/Keyframe";
+import Simple from "./components/Simple";
 
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+     <Simple />
+     <Keyframe />
+     <ButtonTap />
     </>
   );
 }
