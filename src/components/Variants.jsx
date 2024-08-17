@@ -34,7 +34,7 @@ const Variants = () => {
             variants={shapeVariants}
             initial="initial"
             animate="animate"
-            className='bg-green-700 w-32 h-32 rounded border m-4'>
+            className='bg-green-700 w-32 h-32 rounded border my-40 mx-40'>
             <motion.div
                 className='bg-red-500 w-12 h-12 rounded-full border m-2'
                 variants={childVariants} />

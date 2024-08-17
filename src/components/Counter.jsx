@@ -13,7 +13,7 @@ const Counter = () => {
     }, [])
 
     return (
-        <motion.div>{roundedValue}</motion.div>
+        <motion.div className='mx-20 my-20 text-3xl font-bold'>{roundedValue}</motion.div>
     );
 };
 
